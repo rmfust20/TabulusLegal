@@ -1,7 +1,3 @@
- ---                                                                           
-  title: Board Game Review Support
-  ---
-
   # Board Game Review Support
 
   Need help with Board Game Review? We're happy to assist.                      
