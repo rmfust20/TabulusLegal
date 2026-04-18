@@ -53,6 +53,14 @@ We do not sell or share your data for advertising. We do not use analytics or tr
 - **Access/export:** email robertmfusting@gmail.com
 - Password reset via the forgot-password flow on the app login page
 
+## 7. Content Moderation
+- Game Nights and Reviews have a clickable ellipsis button on the top right corner that when clicked will prompt the user to report the content or block the user.
+- Users will no longer see any content posted by a user that they have blocked.
+- Users will no longer see any content they have reported.
+- Any content with 3 or more reports is subject to be removed.
+- Reports are checked manually by Robert Fusting every 24 hours.
+
+
 ## 7. Children
 Tabulus is not directed to children under 13, and we do not knowingly collect information from children under 13.  
 If you believe a child has created an account, email robertmfusting@gmail.com and we will remove it.
