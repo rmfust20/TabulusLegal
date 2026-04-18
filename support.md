@@ -9,6 +9,9 @@ We aim to respond within 2 business days.
 
 ## Common Questions
 
+### How do I block users or report content
+Game Nights and reviews have an clickable ellipsis on the right side. When clicked you will have the option to report this content or block the user.
+
 ### How do I create a game night?
 Tap the **+** button on the home feed and fill in the details.
 
