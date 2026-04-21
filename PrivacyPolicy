@@ -1,80 +1,128 @@
 # Privacy Policy
 
-**Effective date:** 04/15/2026
+**Effective date:** April 21, 2026
+
+---
 
 ## 1. Who We Are
-Tabulus is an iOS app built and operated by Robert Fusting, a solo developer.  
+
+Tabulus is an iOS app built and operated by Robert Fusting, a solo developer.
+
 **Contact:** robertmfusting@gmail.com
+
+---
 
 ## 2. Information We Collect
 
-### You Provide Directly:
-- **Account:** username, email, password (email signup) — or Apple ID and optional email (Sign in with Apple)
-- **Profile:** optional profile image
-- **Content you post:** reviews, ratings, game night entries (games played, participants, outcomes), photos (up to 5 per upload, 8MB each)
-- **Social graph:** friend requests you send/accept
-- **Reports:** reports you submit on other users' content
+### Information You Provide Directly
 
-### Collected Automatically:
-- Authentication tokens (so you stay signed in)
-- Server logs (IP address, timestamps, request paths) are used for real-time debugging only and are not retained
+- **Account:** Username, email, password (email signup) — or Apple ID and optional email (Sign in with Apple)
+- **Profile:** Optional profile image
+- **Content you post:** Reviews, ratings, game night entries (games played, participants, outcomes), photos (up to 5 per upload, 8MB each)
+- **Social graph:** Friend requests you send/accept
+- **Reports:** Reports you submit on other users' content
 
-**We do NOT collect:** location, contacts, analytics, crash reports, advertising identifiers, or any third-party tracking.
+### Information Collected Automatically
 
-## 3. How We Use It
+- Authentication tokens (to keep you signed in)
+- Server logs (IP address, timestamps, request paths) used for real-time debugging only and not retained
+
+**We do NOT collect:** Location, contacts, analytics, crash reports, advertising identifiers, or any third-party tracking.
+
+---
+
+## 3. How We Use Your Information
+
 - Operate the app (accounts, posting, feeds, friends)
-- Authenticate you and keep you signed in
+- Authenticate you and maintain your session
 - Send password reset emails
-- Enforce our rules (responding to reports)
+- Enforce platform rules (respond to reports)
 - Secure the service (abuse prevention, debugging)
 
-## 4. How It’s Stored
+---
+
+## 4. How Your Data Is Stored
+
 - Backend hosted on Microsoft Azure (Azure Container Apps, West US 2 region)
-- Images stored in Azure Blob Storage; served via short-lived signed URLs
-- Passwords are hashed with argon2; we never store them in plaintext
-- Refresh tokens are stored in the iOS Keychain on your device
+- Images stored in Azure Blob Storage and served via short-lived signed URLs
+- Passwords are hashed using Argon2 and never stored in plaintext
+- Refresh tokens are stored securely in the iOS Keychain on your device
+
+---
 
 ## 5. Third Parties
-We share data only with infrastructure providers needed to run the app:
 
-- **Microsoft Azure** — hosting, database, image storage, and transactional email (Azure Communication Services) for password resets  
-- **Apple** — if you use Sign in with Apple, Apple handles that authentication  
-- **BoardGameGeek** — game metadata is fetched by our server; BGG does not receive any information about you  
+We share data only with infrastructure providers necessary to operate the app:
 
-We do not sell or share your data for advertising. We do not use analytics or tracking SDKs.
+- **Microsoft Azure** — Hosting, database, image storage, and transactional email (Azure Communication Services) for password resets  
+- **Apple** — Authentication when using Sign in with Apple  
+- **BoardGameGeek** — Game metadata is fetched server-side; no user data is shared  
+
+We do **not** sell or share your data for advertising and do not use analytics or tracking SDKs.
+
+---
 
 ## 6. Your Choices and Rights
-- Only friends can view your game nights. Friends can be removed from the Friends tab on your profile page; once removed, neither user can view the other's game night content.
-- Block users to remove them as friends and stop seeing game night and review content that they post.
-- Edit your profile in the app
-- Delete game nights via the ellipsis menu on any game night card
-- Delete reviews via the delete button on the associated board game page
-- Delete your account in the app (**Settings → Delete Account**) — this permanently removes your account and all associated content from our systems
-- **Access/export:** email robertmfusting@gmail.com
-- Password reset via the forgot-password flow on the app login page
+
+- Only friends can view your game nights  
+- Remove friends via the Friends tab — this revokes mutual access to game night content  
+- Block users to remove them as friends and stop seeing their content  
+- Edit your profile within the app  
+- Delete game nights via the ellipsis menu on any game night card  
+- Delete reviews via the delete button on the associated board game page  
+- Delete your account in-app (**Settings → Delete Account**)  
+  - This permanently removes your account and all associated content  
+- **Access/export your data:** Email robertmfusting@gmail.com  
+- Reset your password via the "Forgot Password" flow on the login page  
+
+---
 
 ## 7. Content Moderation
-- Game Nights and Reviews have a clickable ellipsis button on the top right corner that when clicked will prompt the user to report the content or block the user.
-- Users will no longer see any content posted by a user that they have blocked.
-- Users will no longer see any content they have reported.
-- Any content with 3 or more reports is subject to be removed.
-- Reports are checked manually by Robert Fusting every 24 hours.
 
+- Game Nights and Reviews include a report/block option via the ellipsis menu  
+- Blocked users’ content is no longer visible to you  
+- Reported content is hidden from your view  
+- Content with 3 or more reports may be removed  
+- Reports are reviewed manually every 24 hours by Robert Fusting  
+
+---
 
 ## 8. Children
-Tabulus is not directed to children under 13, and we do not knowingly collect information from children under 13.  
-If you believe a child has created an account, email robertmfusting@gmail.com and we will remove it.
+
+Tabulus is not intended for children under 13, and we do not knowingly collect their information.
+
+If you believe a child has created an account, contact: robertmfusting@gmail.com
+
+---
 
 ## 9. Data Retention
-We keep your data while your account is active.  
-When you delete your account, we remove your profile, reviews, game nights, and uploaded images from our live systems.  
-Deleted data may persist in encrypted database backups for up to 7 days before being automatically purged.
+
+- Data is retained while your account is active  
+- Upon account deletion, your profile, reviews, game nights, and images are removed from live systems  
+- Deleted data may remain in encrypted backups for up to 7 days before automatic deletion  
+
+---
 
 ## 10. Security
-We use HTTPS for all network traffic, hashed passwords, token-based authentication, and platform-provided secure storage (iOS Keychain). However, no method of transmission over the internet or electronic storage is completely secure. While we strive to use commercially reasonable means to protect your information, we cannot guarantee absolute security.
+
+We use:
+
+- HTTPS for all network traffic  
+- Hashed passwords  
+- Token-based authentication  
+- Secure storage via iOS Keychain  
+
+No method of transmission or storage is completely secure. While we use commercially reasonable safeguards, we cannot guarantee absolute security.
+
+---
 
 ## 11. Changes
-We may update this policy. Material changes will be posted here with a new effective date.
+
+We may update this policy periodically. Material changes will be posted here with a revised effective date.
+
+---
 
 ## 12. Contact
-**Robert Fusting** — robertmfusting@gmail.com
+
+**Robert Fusting**  
+robertmfusting@gmail.com
